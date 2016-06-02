@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondLoader", "BondLoader\Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{02778251-9D7D-4AD5-84FC-EEC1A18A7DA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondValidator", "BondValidator\BondValidator.csproj", "{BC318BA7-E767-4F93-BF6B-1C8AA9CEC340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +23,15 @@ Global
 		{02778251-9D7D-4AD5-84FC-EEC1A18A7DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02778251-9D7D-4AD5-84FC-EEC1A18A7DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02778251-9D7D-4AD5-84FC-EEC1A18A7DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC318BA7-E767-4F93-BF6B-1C8AA9CEC340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC318BA7-E767-4F93-BF6B-1C8AA9CEC340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC318BA7-E767-4F93-BF6B-1C8AA9CEC340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC318BA7-E767-4F93-BF6B-1C8AA9CEC340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal
