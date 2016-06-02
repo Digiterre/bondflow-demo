@@ -1,0 +1,5 @@
+        <destinations>
+            <queue physicalName="Validation.queue" />
+            <queue physicalName="SpreadCalculation.queue" />
+            <queue physicalName="Storage.queue" />
+        </destinations>
