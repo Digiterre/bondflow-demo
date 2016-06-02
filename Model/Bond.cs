@@ -22,5 +22,7 @@
         public decimal? MidPrice { get; set; }
 
         public PriceSpread Spread { get; set; }
+
+        public string Identifier { get; set; }
     }
 }

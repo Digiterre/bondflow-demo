@@ -64,13 +64,17 @@ namespace BondLoader
                 {
                     var bond = new Bond();
                     var parts = line.Split(',');
-                    bond.Name = parts[0];
+                    bond.Identifier = DateTime.UtcNow.Date.ToString("yyyy-MM-dd") + "-" + parts[0];
                     if (parts.Length > 1)
                     {
-                        bond.Type = parts[1];
+                        bond.Name = parts[1];
+                    }
+                    if (parts.Length > 2)
+                    {
+                        bond.Type = parts[2];
                     }
                     decimal price;
-                    if (parts.Length > 2 && decimal.TryParse(parts[2], out price))
+                    if (parts.Length > 3 && decimal.TryParse(parts[3], out price))
                     {
                         bond.MidPrice = price;
                     }
