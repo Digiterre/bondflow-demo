@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondValidator", "BondValida
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpreadCalculator", "SpreadCalculator\SpreadCalculator.csproj", "{DF58D368-38D4-4199-8384-1A0A4E2B5E60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondStorage", "BondStorage\BondStorage.csproj", "{77634F87-2EE3-4810-9F5B-8EE35EDECB39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DF58D368-38D4-4199-8384-1A0A4E2B5E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF58D368-38D4-4199-8384-1A0A4E2B5E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF58D368-38D4-4199-8384-1A0A4E2B5E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77634F87-2EE3-4810-9F5B-8EE35EDECB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77634F87-2EE3-4810-9F5B-8EE35EDECB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77634F87-2EE3-4810-9F5B-8EE35EDECB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77634F87-2EE3-4810-9F5B-8EE35EDECB39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
