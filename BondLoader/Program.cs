@@ -17,6 +17,11 @@ namespace BondLoader
     {
         static void Main(string[] args)
         {
+            if (args.Length == 1 && string.Equals(args[0], "generate", StringComparison.InvariantCultureIgnoreCase))
+            {
+                GenerateDataFile();
+                return;
+            }
             var configurator = new TransportConfigurator()
                                    .ConfigureLogging()
                                    .ConfigureContainer()
@@ -94,6 +99,30 @@ namespace BondLoader
             // Stop every thing.
             configurator.Shutdown();
             sendingManager.Stop();
+        }
+
+        static void GenerateDataFile()
+        {
+            var random = new Random();
+            var fileBuilder = new StringBuilder();
+            for (int i = 1; i <= 1000; ++i)
+            {
+                var builder = new StringBuilder();
+                builder.Append(i);
+                builder.Append(",NewBond");
+                builder.Append(i);
+                var type = i%2 == 0
+                    ? (i%3 == 0 ? "Zero Coupon" : "Government")
+                    : (i%3 == 0 ? "Corporate" : "Zero Coupon");
+                builder.Append(",");
+                builder.Append(type);
+                builder.Append(",");
+                builder.Append(random.Next(1000));
+                builder.Append(".");
+                builder.Append(random.Next(100).ToString("00"));
+                fileBuilder.AppendLine(builder.ToString());
+            }
+            File.WriteAllText("BondInputData.csv", fileBuilder.ToString());
         }
     }
 }
