@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using EnergyTrading.Configuration;
 using EnergyTrading.Container.Unity;
 using Messaging.Unity.Configuration;
 using TransportMetadata.Registrars;
 
-namespace SpreadCalculator
+namespace BondErrorHandler
 {
     class Program
     {

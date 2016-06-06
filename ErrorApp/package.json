@@ -1,0 +1,42 @@
+{
+  "name": "errorapp",
+  "version": "1.0.0",
+  "description": "error ui for bond flow demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "core-js": "^2.4.0",
+    "es6-promise": "^3.2.1",
+    "jquery": "^2.2.4",
+    "jspm": "^0.16.36",
+    "react": "^15.1.0",
+    "react-bootstrap": "^0.29.4",
+    "react-dom": "^15.1.0",
+    "redux": "^3.5.2",
+    "redux-actions": "^0.9.1",
+    "redux-thunk": "^2.1.0",
+    "typescript": "^1.8.10"
+  },
+  "jspm": {
+    "dependencies": {
+      "core-js": "npm:core-js@^2.4.0",
+      "es6-promise": "npm:es6-promise@^3.2.1",
+      "jquery": "npm:jquery@^2.2.4",
+      "react": "npm:react@^15.1.0",
+      "react-bootstrap": "npm:react-bootstrap@^0.29.4",
+      "react-dom": "npm:react-dom@^15.1.0",
+      "react-redux": "npm:react-redux@^4.4.5",
+      "redux": "npm:redux@^3.5.2",
+      "redux-actions": "npm:redux-actions@^0.9.1",
+      "redux-thunk": "npm:redux-thunk@^2.1.0"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.center-align {
+    text-align: center;
+}
+
+.padded {
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.row {
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.cell {
+    border: 2px solid white;
+}
+
+.no-cell {
+    border: none;
+}
+
+
+.large-bottom-padding {
+    border: none;
+    padding-bottom: 20px;
+}
+
+.button-padding {
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.edit-button-padding {
+    border: none;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.edit-checkbox-text-padding {
+    border: none;
+    padding-bottom: 35px;
+}
+
+.checkbox-padding {
+    border: none;
+    padding-top: 0px;
+    padding-left: 40%;
+}
+
+.small-bottom-padded {
+    border: none;
+    padding-bottom: 5px;
+}
+
+.small-left-padded {
+    border: none;
+    padding-left: 15px;
+}
+.true-colour {
+    color : lawngreen;
+    padding: 0px;
+}
+
+.false-colour {
+    color : red;
+    padding: 0px;
+}
+
+.panel-inprogress {
+    border-color: #d6e9c6;
+}
+.panel-inprogress > .panel-heading {
+    color: #744d76;
+    background-color: #f0d3ec;
+    border-color: #dccce9;
+}
+.panel-inprogress > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #dccce9;
+}
+.panel-inprogress > .panel-heading .badge {
+    color: #f0d3ec;
+    background-color: #744d76;
+}
+.panel-inprogress > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #dccce9;
+}

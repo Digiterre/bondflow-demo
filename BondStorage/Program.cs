@@ -17,7 +17,6 @@ namespace BondStorage
             var configurator = new TransportConfigurator()
                                    .ConfigureLogging()
                                    .ConfigureContainer()
-                                   .Register<MetadataMapperRegistrar>()
                                    .StandardRegistrars()
                                    .ConfigureRegistrars();
 

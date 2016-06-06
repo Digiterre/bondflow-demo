@@ -1,0 +1,39 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "react/react.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    },
+    "react-bootstrap/react-bootstrap.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    },
+    "bootstrap/bootstrap.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    },
+    "redux/redux.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    },
+    "react-redux/react-redux.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    },
+    "react/react-dom.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    },
+    "redux-actions/redux-actions.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    },
+    "redux-thunk/redux-thunk.d.ts": {
+      "commit": "1be72cdce38fa12471085ac2cf39b0a901321720"
+    }
+  }
+}

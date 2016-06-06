@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpreadCalculator", "SpreadC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondStorage", "BondStorage\BondStorage.csproj", "{77634F87-2EE3-4810-9F5B-8EE35EDECB39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondErrorHandler", "BondErrorHandler\BondErrorHandler.csproj", "{D0D8D71E-2101-44E2-8331-CEE4E1C0EEA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondErrorWebService", "BondErrorWebService\BondErrorWebService.csproj", "{437B5232-8D01-499B-9BB4-86AEA57C6A07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{77634F87-2EE3-4810-9F5B-8EE35EDECB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77634F87-2EE3-4810-9F5B-8EE35EDECB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77634F87-2EE3-4810-9F5B-8EE35EDECB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D8D71E-2101-44E2-8331-CEE4E1C0EEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D8D71E-2101-44E2-8331-CEE4E1C0EEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D8D71E-2101-44E2-8331-CEE4E1C0EEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D8D71E-2101-44E2-8331-CEE4E1C0EEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437B5232-8D01-499B-9BB4-86AEA57C6A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437B5232-8D01-499B-9BB4-86AEA57C6A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437B5232-8D01-499B-9BB4-86AEA57C6A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437B5232-8D01-499B-9BB4-86AEA57C6A07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
