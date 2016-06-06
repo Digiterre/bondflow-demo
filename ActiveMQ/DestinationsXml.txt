@@ -2,4 +2,5 @@
             <queue physicalName="Validation.queue" />
             <queue physicalName="SpreadCalculation.queue" />
             <queue physicalName="Storage.queue" />
+            <queue physicalName="Error.queue" />
         </destinations>
