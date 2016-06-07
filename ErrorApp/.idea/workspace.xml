@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe801d34-a01f-433f-b933-1a7fef0e8ad7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ErrorApp.iws" />
@@ -380,7 +379,7 @@
       <updated>1465197070525</updated>
       <workItem from="1465197071881" duration="399000" />
       <workItem from="1465206786366" duration="10279000" />
-      <workItem from="1465298196589" duration="1059000" />
+      <workItem from="1465298196589" duration="1068000" />
     </task>
     <task id="LOCAL-00001" summary="updated idea files">
       <created>1465299725577</created>
@@ -389,11 +388,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465299725577</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated idea files">
+      <created>1465299742671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1465299742671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11737000" />
+    <option name="totallyTimeSpent" value="11746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
