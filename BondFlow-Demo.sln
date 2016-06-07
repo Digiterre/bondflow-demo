@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondErrorHandler", "BondErr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondErrorWebService", "BondErrorWebService\BondErrorWebService.csproj", "{437B5232-8D01-499B-9BB4-86AEA57C6A07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{1771D7BC-5884-42B0-9863-FAB1DE5CECA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{437B5232-8D01-499B-9BB4-86AEA57C6A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{437B5232-8D01-499B-9BB4-86AEA57C6A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{437B5232-8D01-499B-9BB4-86AEA57C6A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1771D7BC-5884-42B0-9863-FAB1DE5CECA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1771D7BC-5884-42B0-9863-FAB1DE5CECA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1771D7BC-5884-42B0-9863-FAB1DE5CECA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1771D7BC-5884-42B0-9863-FAB1DE5CECA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,8 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common;
 using EnergyTrading.Configuration;
 using EnergyTrading.Container.Unity;
+using EnergyTrading.Logging;
+using Messaging.Transport;
 using Messaging.Unity.Configuration;
 using Model;
 using TransportMetadata.Metadata;
@@ -30,6 +33,8 @@ namespace BondLoader
 
             // Any other start up tasks we want.
             ConfigurationBootStrapper.Initialize(configurator.Container.ResolveAllToEnumerable<IGlobalConfigurationTask>());
+
+            ILogger logger = LoggerFactory.GetLogger<Program>();
 
             // Get and start the publisher
             var sendingManager = configurator.AsSendingManager();
@@ -83,6 +88,8 @@ namespace BondLoader
                         bond.MidPrice = price;
                     }
 
+                    logger.InfoFormat("Loader Received {0}", bond.LogFormat());
+
                     var metadata = new MessageMetadata
                     {
                         MessageDetails = new MessageDetails { Category = "TEST" },
@@ -92,6 +99,7 @@ namespace BondLoader
                     var message = new Tuple<Bond, MessageMetadata>(bond, metadata);
 
                     sendingManager.Send(message);
+                    logger.InfoFormat("Loader Sent {0}", bond.LogFormat());
                 }
             }
 
