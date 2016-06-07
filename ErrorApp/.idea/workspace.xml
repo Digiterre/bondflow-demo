@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe801d34-a01f-433f-b933-1a7fef0e8ad7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ErrorApp.iml" afterPath="$PROJECT_DIR$/.idea/ErrorApp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ErrorApp.iws" />
@@ -380,12 +380,20 @@
       <updated>1465197070525</updated>
       <workItem from="1465197071881" duration="399000" />
       <workItem from="1465206786366" duration="10279000" />
-      <workItem from="1465298196589" duration="1029000" />
+      <workItem from="1465298196589" duration="1059000" />
     </task>
+    <task id="LOCAL-00001" summary="updated idea files">
+      <created>1465299725577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465299725577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11707000" />
+    <option name="totallyTimeSpent" value="11737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -420,6 +428,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated idea files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
